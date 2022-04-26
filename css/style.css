@@ -1,0 +1,78 @@
+@import url(../css/colors.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+.left{
+    padding: 0 3rem;
+    width: 35%;
+    height: 100%;
+    background-color: var(--blue);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+#email{
+    width: 70%;
+    height: 2.5rem;
+    padding:0 20px;
+    background-color: transparent;
+    border: 2px solid var(--grey);
+    border-radius: 20px;
+    outline: none;
+    color: var(--grey);
+}
+#password{
+    width: 70%;
+    height: 2.5rem;
+    padding:0 20px;
+    background-color: transparent;
+    border: 2px solid var(--grey);
+    border-radius: 20px;
+    outline: none;
+    color: var(--grey);
+}
+.btn-style{
+    width: 70%;
+    height: 2.5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: #000;
+}
+.help{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+.help p{
+    font-size: 1rem;
+    color: var(--grey);
+}
+.help a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--grey);
+}
+.right{
+    width: 65%;
+}
+.right img{
+    width: 100%;
+    align-self: center;
+}
